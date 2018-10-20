@@ -11,7 +11,6 @@ import random
 import json
 def train():
     stemmer = LancasterStemmer()
-    nltk.download('punkt')
 
     # import our chat-bot intents file
     with open('./bot/intents.json') as json_data:
