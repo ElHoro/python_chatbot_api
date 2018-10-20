@@ -1,0 +1,9 @@
+#Project specifics
+*.tflearn.*
+training_data
+tflearn_logs/
+checkpoint
+
+.idea
+.idea/
+__pycache__/
